@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(244, 222, 142);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+nav {
+    display: flex;
+    position: relative;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(131, 141, 150);
+ }
+ nav a {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #fff;
+    text-decoration: none;
+ }
