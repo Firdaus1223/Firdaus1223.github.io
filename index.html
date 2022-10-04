@@ -8,12 +8,36 @@
     <title> Posttest </title>
 </head>
 <body>
+    <body>
+        <label>
+            <input type="checkbox">
+            <span class="check"></span>
+        </label>
     <header>
+        <label  id="dark-change"></label>
         <h1> Posttest </h1>
     </header>
     <nav>
         <a href="Posttest 1/Posttest1.html"> Posttest 1 </a>
         <a href="Posttest 2/posttest2.html"> Posttest 2 </a>
+        <a href="Posttest 3/posttest3.html"> Posttest 3 </a>
     </nav>
+    <script>
+        var content = document.getElementsByTagName('body')[0];
+        var darkMode = document.getElementById('dark-change');
+        darkMode.addEventListener('click', function(){
+            darkMode.classList.toggle('active');
+            content.classList.toggle('night');
+        })
+    </script>
+      <script type="text/javascript" src="index.js"></script>
+
+      <div class="navbar" id="myNavbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="about.html">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
 </body>
 </html>
